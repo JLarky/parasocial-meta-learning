@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <style>
+      .countdown {
+        width: 330px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        gap: 10px;
+        font-size: 1.5rem;
+      }
+
+      .timer {
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="countdown">
+      <span class="title">Time before break:</span>
+      <span class="timer">45:00</span>
+      <span class="icon">&#128336;</span>
+    </div>
+    <script>
+      import '../components/pomodoro'
+    </script>
+  </body>
+</html>
